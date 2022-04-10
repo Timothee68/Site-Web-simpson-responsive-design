@@ -1,0 +1,37 @@
+#wrapper
+    {
+        width: 100%;
+      
+    }
+
+main
+    {
+        flex-direction: column;
+    }
+
+nav 
+    {
+        width: 100%;
+        height:auto;
+    }
+nav a 
+    {
+        flex-direction: row;
+
+    }
+article 
+    {
+        text-align: justify;
+        margin: auto;
+    }
+
+aside
+    {
+        width: 100%;
+        text-align:center;
+    }
+
+aside img
+    {
+       align-items: center;
+    }

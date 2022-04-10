@@ -1,0 +1,176 @@
+*
+    {
+        
+        margin: 0;
+        box-sizing: border-box;
+        /* border: 1px solid red; */
+      
+    }
+body
+    {
+        background-color:yellow;
+        
+    }
+
+#wrapper 
+    {
+        text-align:center;
+        width: 80%;
+        margin: auto;
+       
+    }
+/* partie en tête */
+header
+    {
+        
+        background-color: skyblue;
+        color: white;
+        font-size: 24px;
+    }
+
+figure
+    {   
+        
+        width: 100%;
+        overflow: hidden;
+    }
+     
+   
+#famille_simpson
+    {
+        width: 100%;
+        vertical-align: top;
+    }
+/* 
+********************************* */
+
+/*partit navigation */
+nav
+    {   
+        width: 100%;
+        background-color: blue;
+        padding-left: 200px;
+        padding-right: 200px;
+        display: flex;
+        font-size:xx-large;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    nav a
+    {   
+       
+        color: white;
+        display: list-item;
+        padding: 0.5em;
+        justify-content:center ;
+        list-style-type: none;
+        text-decoration: none;
+    }   
+
+
+/* ********************************** */
+
+/* partit main-article-assid*/
+main  
+    {
+        display:flex;
+        width:100%;
+        background-color: white;
+        padding: 2em;
+      
+    }
+
+article
+    {
+        width: 80%;
+        font-size: 22px;
+        
+    }
+
+article h1
+    {
+        font-size:2.5em;
+        color: goldenrod;
+        padding: 0em 7.8em 1em 0em  ;
+        width: 100%;
+    }       
+            
+        
+article p
+    {
+        
+        text-align: justify;
+        padding-right: 1em;
+        line-height: 1.4; /*espace entre la hauteur des lignes du paragraphes*/
+        letter-spacing: 0px;/*espace entre les lettres ( selon la police pour mieux lire ,ici sans grand intérêt ) */
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }    
+#film_image img
+    {   
+        
+        border: solid  2px black;
+        margin-top: 1em;
+        justify-content: space-around;
+        
+        
+    }
+aside
+    {
+        background-color: blue;
+        color: white;
+        width: 30%;
+        padding: 1.2em;
+        padding-top: 20px;
+        padding-bottom: 2em;
+        margin-top:120px;
+   
+
+    }
+ aside img 
+    {
+        border: solid white 2px;
+        
+        
+
+    }       
+figcaption 
+    {
+        line-height: 1.4;
+        font-size: 20px;
+        margin: 1em;
+        
+       
+
+    }
+#Dessinateur
+    {
+        text-align: center;
+        padding-bottom: 1em;
+       
+        
+    }      
+h3
+    {
+        font-size:xx-large;
+        padding-bottom: 1em;
+        font-weight: bolder;
+        text-align: center;
+    }  
+   
+/*********************************/
+
+/*partit footer*/
+footer 
+    {
+        background-color:darkblue ;
+    }
+
+ small
+    {
+        color:white;
+        width: 80%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+ /**************************************/
+ 
+ 
