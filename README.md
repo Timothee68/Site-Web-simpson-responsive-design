@@ -9,5 +9,5 @@ Le thème est ici la série : Les Simpson de Matt Groening.
 
 Le site répond aux nécessités du format responsive, il s'adapte à plusieurs formats :
 - Moniteur/écran d'ordinateur : 1024px de largeur ou valeurs supérieurs
-- Tablette : entre 768px et 1024px de largeur
-- Téléphone : 767px de largeur ou valeurs inférieurs
+- Tablette :(min-width: 501px) and (max-width: 1024px)
+- Téléphone :max-width: 500px
